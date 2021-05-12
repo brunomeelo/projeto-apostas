@@ -1,0 +1,140 @@
+header{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 150px;
+    background-image: url(../header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+
+.apostas{    
+    background-image: url(../apostaMegaSena.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 689px;
+    margin: auto;
+    /* height: 430px; */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;            
+}
+.apostas h2{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+.logomega{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    
+}
+
+#megasena{
+    /* height: 250px; */
+}
+/* #logomega img{
+    width: 40px;    
+    float: left;
+    position: absolute;
+    left: 25%;
+    top: 5%;    
+} */
+.num-box{
+    background-image: linear-gradient(to bottom right, black, rgb(148, 235, 167));
+    width: 95%;    
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    border-style: solid;
+}
+#msbox{
+    width: 95%;
+    /* background-color: chocolate; */
+}
+
+#lotobox{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-image: linear-gradient(to bottom right, #38033f, #e949ff);
+
+}
+#lotofacil{
+    background-image: url(../apostalotofacil.jpg);
+        
+}
+#quina{
+    background-image: url(../apostalotoquina.jpg);
+    /* height: 250px; */
+    margin-bottom: 50px;
+}
+#quinabox{
+    background-image: linear-gradient(to bottom right, #0c033f, #043eff);
+}
+
+.numbers{
+    width: 80px;
+    height: 80px;
+    background-image: radial-gradient(white, grey);
+    border-radius: 50%;  
+    margin: 5px;  
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.numbers p{
+    margin-top: 10px;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.btn{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 765px){
+    .numbers{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .numbers p{
+        font-size: 25px;
+        color: red;
+    }
+    #msbox{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+    #quinabox{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+}
+@media screen and (max-width: 360px){
+    .numbers{
+        width: 45px;
+        height: 45px;
+    }
+
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+
+</head>
+
+<body>
+        <div class="container text-center">
+            <header>
+                
+                <h1>Gerador de números para apostas</h1>
+            </header>
+            <div class="apostas" id="megasena">
+                <div class="logomega">
+                    <img src="./logomega.png" alt="">
+                    <h2>Mega-Sena</h2>
+                </div>
+                
+                <div class="num-box" id="msbox">
+                    <div class="numbers" id="msn1"></div>
+                    <div class="numbers" id="msn2"></div>
+                    <div class="numbers" id="msn3"></div>
+                    <div class="numbers" id="msn4"></div>
+                    <div class="numbers" id="msn5"></div>
+                    <div class="numbers" id="msn6"></div>
+                </div>
+                <button class="btn btn-success" onclick="sortearMega()">Gerar</button>
+            </div>
+            <div class="apostas" id="lotofacil">
+                <div class="logomega">
+                    <img src="./logomega.png" alt="">
+                    <h2>Lotofacil</h2>
+                </div>
+                <!-- <h2>Lotofacil</h2> -->
+                <div class="num-box" id="lotobox">
+                    <div class="numbers" id="loto1"></div>
+                    <div class="numbers" id="loto2"></div>
+                    <div class="numbers" id="loto3"></div>
+                    <div class="numbers" id="loto4"></div>
+                    <div class="numbers" id="loto5"></div>
+                    <div class="numbers" id="loto6"></div>
+                    <div class="numbers" id="loto7"></div>
+                    <div class="numbers" id="loto8"></div>
+                    <div class="numbers" id="loto9"></div>
+                    <div class="numbers" id="loto10"></div>
+                    <div class="numbers" id="loto11"></div>
+                    <div class="numbers" id="loto12"></div>
+                    <div class="numbers" id="loto13"></div>
+                    <div class="numbers" id="loto14"></div>
+                    <div class="numbers" id="loto15"></div>                    
+                </div>                
+                <button class="btn btn-success" onclick="sortearLoto()">Gerar</button>
+            </div>
+            <div class="apostas" id="quina">
+                <div class="logomega">
+                    <img src="./logomega.png" alt="">
+                    <h2>quina</h2>
+                </div>
+                
+                <div class="num-box" id="quinabox">
+                    <div class="numbers" id="quina1"></div>
+                    <div class="numbers" id="quina2"></div>
+                    <div class="numbers" id="quina3"></div>
+                    <div class="numbers" id="quina4"></div>
+                    <div class="numbers" id="quina5"></div>                                       
+                </div>                
+                <button class="btn btn-success" onclick="sortearQuina()">Gerar</button>
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="./scripts/script.js"></script>
+</body>
+</html>
